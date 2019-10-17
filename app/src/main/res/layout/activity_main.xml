@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ipAddressId"
+        android:layout_margin="10dp"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        />
+    <TextView
+        android:id="@+id/cityId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/countryId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/asn_orgId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/showIpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show My IP Address!"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="showMyIp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+</LinearLayout>
